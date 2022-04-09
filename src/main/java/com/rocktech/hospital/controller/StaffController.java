@@ -9,7 +9,7 @@ import java.text.ParseException;
 
 @RestController
 @RequestMapping("api/staff/")
-public class HospitalController {
+public class StaffController {
 
     @Autowired
     private StaffService staffService;
